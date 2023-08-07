@@ -64,7 +64,7 @@ const KNearestMovies = ({newUserRatings}) => {
   
 
   var notSeen = [];
-  for(var i = 0; i<newUser.movie.length; ++i){
+  for(var i = 0; i<newUser.movie.length/2; ++i){
       if(newUser.movie[i].rating===-1){
         notSeen.push(newUser.movie[i].movId);
       }
